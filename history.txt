@@ -1,0 +1,35 @@
+I'm unable to pip-install the requirements for agora server. I'm building it in a Docker container corresponding to [this Dockerfile](https://github.com/ofiscal/tax.co/blob/online/docker/Dockerfile). It uses Debian 10.9. That Dockerfile doesn't include libmemcached, but when I start the container I run
+```
+apt install libmemcached-dev
+```
+
+I then enter the agora-server folder and run
+```
+python3 -m venv venv
+. venv/bin/activate
+pip3 install -r requirements.txt > pip-install-stdout-stderr.txt 2>&1
+```
+
+Here is the [output captured from that last command](https://github.com/JeffreyBenjaminBrown/jbb-agora/blob/main/agora-server.pip-install-stdout-stderr.txt). I believe the essence of the problem is
+```
+lto1: fatal error: bytecode stream in file ‘/opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a’ generated with LTO version 6.0 instead of the expected 7.1
+```
+
+Somewhere online, someone thought that problem arises when you use the wrong GCC. I see that my container uses 8.3.0. So I installed GCC 9:
+```
+echo 'deb http://deb.debian.org/debian testing main' >> /etc/apt/sources.list
+apt update -y
+apt install -y gcc-9
+```
+
+and then had pip3 use that instead:
+```
+CC=/usr/bin/gcc-9 pip3 install -r requirements.txt > pip-install-stdout-stderr.txt 2>&1
+```
+
+and the problem got *worse*:
+```
+lto1: fatal error: bytecode stream in file ‘/opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a’ generated with LTO version 6.0 instead of the expected 8.1
+```
+
+So I think the problem is that `/opt/conda/.../libpython3.8.a` was made with an older GCC. Therefore I'll try a new Docker container with no conda.
