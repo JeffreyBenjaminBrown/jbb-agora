@@ -1,0 +1,411 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting bleach==3.2.1
+  Using cached bleach-3.2.1-py2.py3-none-any.whl (145 kB)
+Collecting cachetools==4.2.0
+  Using cached cachetools-4.2.0-py3-none-any.whl (12 kB)
+Requirement already satisfied: click==7.1.2 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 3)) (7.1.2)
+Collecting dateparser==1.0.0
+  Using cached dateparser-1.0.0-py2.py3-none-any.whl (279 kB)
+Collecting feedparser==6.0.2
+  Using cached feedparser-6.0.2-py3-none-any.whl (80 kB)
+Collecting filetype==1.0.7
+  Using cached filetype-1.0.7-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: Flask==1.1.2 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 7)) (1.1.2)
+Collecting Flask-Caching==1.10.0
+  Using cached Flask_Caching-1.10.0-py3-none-any.whl (31 kB)
+Collecting Flask-Cors==3.0.10
+  Using cached Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+Collecting Flask-Markdown==0.3
+  Using cached Flask_Markdown-0.3-py3-none-any.whl
+Collecting Flask-WTF==0.14.3
+  Using cached Flask_WTF-0.14.3-py2.py3-none-any.whl (13 kB)
+Collecting fuzzywuzzy==0.18.0
+  Using cached fuzzywuzzy-0.18.0-py2.py3-none-any.whl (18 kB)
+Collecting importlib-metadata==2.0.0
+  Using cached importlib_metadata-2.0.0-py2.py3-none-any.whl (31 kB)
+Requirement already satisfied: isodate==0.6.0 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 14)) (0.6.0)
+Requirement already satisfied: itsdangerous==1.1.0 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 15)) (1.1.0)
+Requirement already satisfied: jedi==0.17.2 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 16)) (0.17.2)
+Requirement already satisfied: Jinja2==2.11.2 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 17)) (2.11.2)
+Collecting jsons==1.4.0
+  Using cached jsons-1.4.0-py3-none-any.whl (58 kB)
+Collecting lxml==4.6.2
+  Using cached lxml-4.6.2-cp38-cp38-manylinux1_x86_64.whl (5.4 MB)
+Requirement already satisfied: Markdown==3.3.3 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 20)) (3.3.3)
+Collecting marko==0.9.1
+  Using cached marko-0.9.1-py2.py3-none-any.whl (35 kB)
+Requirement already satisfied: MarkupSafe==1.1.1 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 22)) (1.1.1)
+Collecting mdx-truly-sane-lists==1.2
+  Using cached mdx_truly_sane_lists-1.2-py3-none-any.whl (5.0 kB)
+Collecting org-python==0.3.2
+  Using cached org_python-0.3.2-py3-none-any.whl
+Requirement already satisfied: packaging==20.4 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 25)) (20.4)
+Requirement already satisfied: parso==0.7.1 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 26)) (0.7.1)
+Collecting pylibmc==1.6.1
+  Using cached pylibmc-1.6.1-cp38-cp38-linux_x86_64.whl
+Requirement already satisfied: pyparsing==2.4.7 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 28)) (2.4.7)
+Requirement already satisfied: python-dateutil==2.8.1 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 29)) (2.8.1)
+Collecting python-Levenshtein==0.12.0
+  Using cached python_Levenshtein-0.12.0-cp38-cp38-linux_x86_64.whl
+Requirement already satisfied: pytz==2020.4 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 31)) (2020.4)
+Requirement already satisfied: PyYAML==5.4.1 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 32)) (5.4.1)
+Collecting rdflib==5.0.0
+  Using cached rdflib-5.0.0-py3-none-any.whl (231 kB)
+Collecting redis==3.5.3
+  Using cached redis-3.5.3-py2.py3-none-any.whl (72 kB)
+Requirement already satisfied: regex==2020.11.13 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 35)) (2020.11.13)
+Requirement already satisfied: sgmllib3k==1.0.0 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 36)) (1.0.0)
+Requirement already satisfied: six==1.15.0 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 37)) (1.15.0)
+Collecting text-unidecode==1.3
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Requirement already satisfied: typish==1.9.1 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 39)) (1.9.1)
+Requirement already satisfied: tzlocal==2.1 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 40)) (2.1)
+Collecting unicode-slugify==0.1.3
+  Using cached unicode_slugify-0.1.3-py3-none-any.whl
+Requirement already satisfied: Unidecode==1.1.2 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 42)) (1.1.2)
+Collecting uWSGI==2.0.19.1
+  Using cached uWSGI-2.0.19.1.tar.gz (803 kB)
+Requirement already satisfied: webencodings==0.5.1 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 44)) (0.5.1)
+Requirement already satisfied: Werkzeug==1.0.1 in /opt/conda/lib/python3.8/site-packages (from -r requirements.txt (line 45)) (1.0.1)
+Requirement already satisfied: WTForms==2.3.3 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 46)) (2.3.3)
+Requirement already satisfied: zipp==3.4.0 in /home/appuser/.local/lib/python3.8/site-packages (from -r requirements.txt (line 47)) (3.4.0)
+Requirement already satisfied: setuptools in /opt/conda/lib/python3.8/site-packages (from python-Levenshtein==0.12.0->-r requirements.txt (line 30)) (52.0.0.post20210125)
+WARNING: The candidate selected for download or install is a yanked version: 'python-levenshtein' candidate (version 0.12.0 at https://files.pythonhosted.org/packages/42/a9/d1785c85ebf9b7dfacd08938dd028209c34a0ea3b1bcdb895208bd40a67d/python-Levenshtein-0.12.0.tar.gz#sha256=033a11de5e3d19ea25c9302d11224e1a1898fe5abd23c61c7c360c25195e3eb1 (from https://pypi.org/simple/python-levenshtein/))
+Reason for being yanked: Insecure, upgrade to 0.12.1
+Building wheels for collected packages: uWSGI
+  Building wheel for uWSGI (setup.py): started
+  Building wheel for uWSGI (setup.py): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: /opt/conda/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-e9xoyv8d
+       cwd: /tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/
+  Complete output (162 lines):
+  /opt/conda/lib/python3.8/distutils/dist.py:274: UserWarning: Unknown distribution option: 'descriptions'
+    warnings.warn(msg)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  copying uwsgidecorators.py -> build/lib
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  using profile: buildconf/default.ini
+  detected include path: ['/usr/lib/gcc/x86_64-linux-gnu/8/include', '/usr/local/include', '/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed', '/usr/include/x86_64-linux-gnu', '/usr/include']
+  Patching "bin_name" to properly install_scripts dir
+  detected CPU cores: 4
+  configured CFLAGS: -O2 -I. -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DUWSGI_HAS_IFADDRS -DUWSGI_ZLIB -DUWSGI_LOCK_USE_MUTEX -DUWSGI_EVENT_USE_EPOLL -DUWSGI_EVENT_TIMER_USE_TIMERFD -DUWSGI_EVENT_FILEMONITOR_USE_INOTIFY -I/opt/conda/include -DUWSGI_PCRE -DUWSGI_ROUTING -DUWSGI_VERSION="\"2.0.19.1\"" -DUWSGI_VERSION_BASE="2" -DUWSGI_VERSION_MAJOR="0" -DUWSGI_VERSION_MINOR="19" -DUWSGI_VERSION_REVISION="1" -DUWSGI_VERSION_CUSTOM="\"\"" -DUWSGI_YAML -I/opt/conda/include/libxml2 -I/opt/conda/include -DUWSGI_XML -DUWSGI_XML_LIBXML2 -DUWSGI_PLUGIN_DIR="\".\"" -DUWSGI_DECLARE_EMBEDDED_PLUGINS="UDEP(python);UDEP(gevent);UDEP(ping);UDEP(cache);UDEP(nagios);UDEP(rrdtool);UDEP(carbon);UDEP(rpc);UDEP(corerouter);UDEP(fastrouter);UDEP(http);UDEP(ugreen);UDEP(signal);UDEP(syslog);UDEP(rsyslog);UDEP(logsocket);UDEP(router_uwsgi);UDEP(router_redirect);UDEP(router_basicauth);UDEP(zergpool);UDEP(redislog);UDEP(mongodblog);UDEP(router_rewrite);UDEP(router_http);UDEP(logfile);UDEP(router_cache);UDEP(rawrouter);UDEP(router_static);UDEP(sslrouter);UDEP(spooler);UDEP(cheaper_busyness);UDEP(symcall);UDEP(transformation_tofile);UDEP(transformation_gzip);UDEP(transformation_chunked);UDEP(transformation_offload);UDEP(router_memcached);UDEP(router_redis);UDEP(router_hash);UDEP(router_expires);UDEP(router_metrics);UDEP(transformation_template);UDEP(stats_pusher_socket);" -DUWSGI_LOAD_EMBEDDED_PLUGINS="ULEP(python);ULEP(gevent);ULEP(ping);ULEP(cache);ULEP(nagios);ULEP(rrdtool);ULEP(carbon);ULEP(rpc);ULEP(corerouter);ULEP(fastrouter);ULEP(http);ULEP(ugreen);ULEP(signal);ULEP(syslog);ULEP(rsyslog);ULEP(logsocket);ULEP(router_uwsgi);ULEP(router_redirect);ULEP(router_basicauth);ULEP(zergpool);ULEP(redislog);ULEP(mongodblog);ULEP(router_rewrite);ULEP(router_http);ULEP(logfile);ULEP(router_cache);ULEP(rawrouter);ULEP(router_static);ULEP(sslrouter);ULEP(spooler);ULEP(cheaper_busyness);ULEP(symcall);ULEP(transformation_tofile);ULEP(transformation_gzip);ULEP(transformation_chunked);ULEP(transformation_offload);ULEP(router_memcached);ULEP(router_redis);ULEP(router_hash);ULEP(router_expires);ULEP(router_metrics);ULEP(transformation_template);ULEP(stats_pusher_socket);"
+  *** uWSGI compiling server core ***
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/utils.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/protocol.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/socket.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/logging.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/master.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/master_utils.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/emperor.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/notify.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/mule.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/subscription.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/stats.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/sendfile.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/async.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/master_checks.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/fifo.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/offload.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/io.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/static.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/websockets.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/spooler.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/snmp.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/exceptions.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/config.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/setup_utils.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/clock.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/init.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/buffer.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/reader.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/writer.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/alarm.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/cron.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/hooks.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/plugins.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/lock.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/cache.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/daemons.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/errors.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/hash.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/master_events.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/chunked.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/queue.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/event.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/signal.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/strings.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/progress.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/timebomb.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/ini.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/fsmon.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/mount.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/metrics.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/plugins_builder.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/sharedarea.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/rpc.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/gateway.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/loop.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/cookie.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/querystring.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/rb_timers.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/transformations.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/uwsgi.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/base.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/uwsgi.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/http.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/fastcgi.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/scgi.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] proto/puwsgi.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] lib/linux_ns.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/zlib.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/regexp.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/routing.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/yaml.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/xmlconf.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/dot_h.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/config_py.o
+  *** uWSGI compiling embedded plugins ***
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/python_plugin.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/pyutils.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/pyloader.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/wsgi_handlers.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/wsgi_headers.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/wsgi_subhandler.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/web3_subhandler.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/pump_subhandler.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/gil.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/uwsgi_pymodule.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/profiler.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/symimporter.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/tracebacker.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/python/raw.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/gevent/gevent.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/gevent/hooks.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/ping/ping_plugin.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/cache/cache.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/nagios/nagios.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/rrdtool/rrdtool.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/carbon/carbon.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/rpc/rpc_plugin.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/corerouter/cr_common.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/corerouter/cr_map.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/corerouter/corerouter.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/fastrouter/fastrouter.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/http/http.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/http/keepalive.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/http/https.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/http/spdy3.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/ugreen/ugreen.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/signal/signal_plugin.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/syslog/syslog_plugin.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/rsyslog/rsyslog_plugin.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/logsocket/logsocket_plugin.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_uwsgi/router_uwsgi.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_redirect/router_redirect.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_basicauth/router_basicauth.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/zergpool/zergpool.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/redislog/redislog_plugin.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/mongodblog/mongodblog_plugin.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_rewrite/router_rewrite.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_http/router_http.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/logfile/logfile.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_cache/router_cache.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/rawrouter/rawrouter.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_static/router_static.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/sslrouter/sslrouter.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/spooler/spooler_plugin.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/cheaper_busyness/cheaper_busyness.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/symcall/symcall_plugin.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/transformation_tofile/tofile.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/transformation_gzip/gzip.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/transformation_chunked/chunked.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/transformation_offload/offload.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_memcached/router_memcached.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_redis/router_redis.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_hash/router_hash.o
+  [thread 3][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_expires/expires.o
+  [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/router_metrics/plugin.o
+  [thread 0][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/transformation_template/tt.o
+  [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] plugins/stats_pusher_socket/plugin.o
+  *** uWSGI linking ***
+  gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/ -o build/bdist.linux-x86_64/wheel/uWSGI-2.0.19.1.data/scripts/uwsgi  core/utils.o core/protocol.o core/socket.o core/logging.o core/master.o core/master_utils.o core/emperor.o core/notify.o core/mule.o core/subscription.o core/stats.o core/sendfile.o core/async.o core/master_checks.o core/fifo.o core/offload.o core/io.o core/static.o core/websockets.o core/spooler.o core/snmp.o core/exceptions.o core/config.o core/setup_utils.o core/clock.o core/init.o core/buffer.o core/reader.o core/writer.o core/alarm.o core/cron.o core/hooks.o core/plugins.o core/lock.o core/cache.o core/daemons.o core/errors.o core/hash.o core/master_events.o core/chunked.o core/queue.o core/event.o core/signal.o core/strings.o core/progress.o core/timebomb.o core/ini.o core/fsmon.o core/mount.o core/metrics.o core/plugins_builder.o core/sharedarea.o core/rpc.o core/gateway.o core/loop.o core/cookie.o core/querystring.o core/rb_timers.o core/transformations.o core/uwsgi.o proto/base.o proto/uwsgi.o proto/http.o proto/fastcgi.o proto/scgi.o proto/puwsgi.o lib/linux_ns.o core/zlib.o core/regexp.o core/routing.o core/yaml.o core/xmlconf.o core/dot_h.o core/config_py.o plugins/python/python_plugin.o plugins/python/pyutils.o plugins/python/pyloader.o plugins/python/wsgi_handlers.o plugins/python/wsgi_headers.o plugins/python/wsgi_subhandler.o plugins/python/web3_subhandler.o plugins/python/pump_subhandler.o plugins/python/gil.o plugins/python/uwsgi_pymodule.o plugins/python/profiler.o plugins/python/symimporter.o plugins/python/tracebacker.o plugins/python/raw.o plugins/gevent/gevent.o plugins/gevent/hooks.o plugins/ping/ping_plugin.o plugins/cache/cache.o plugins/nagios/nagios.o plugins/rrdtool/rrdtool.o plugins/carbon/carbon.o plugins/rpc/rpc_plugin.o plugins/corerouter/cr_common.o plugins/corerouter/cr_map.o plugins/corerouter/corerouter.o plugins/fastrouter/fastrouter.o plugins/http/http.o plugins/http/keepalive.o plugins/http/https.o plugins/http/spdy3.o plugins/ugreen/ugreen.o plugins/signal/signal_plugin.o plugins/syslog/syslog_plugin.o plugins/rsyslog/rsyslog_plugin.o plugins/logsocket/logsocket_plugin.o plugins/router_uwsgi/router_uwsgi.o plugins/router_redirect/router_redirect.o plugins/router_basicauth/router_basicauth.o plugins/zergpool/zergpool.o plugins/redislog/redislog_plugin.o plugins/mongodblog/mongodblog_plugin.o plugins/router_rewrite/router_rewrite.o plugins/router_http/router_http.o plugins/logfile/logfile.o plugins/router_cache/router_cache.o plugins/rawrouter/rawrouter.o plugins/router_static/router_static.o plugins/sslrouter/sslrouter.o plugins/spooler/spooler_plugin.o plugins/cheaper_busyness/cheaper_busyness.o plugins/symcall/symcall_plugin.o plugins/transformation_tofile/tofile.o plugins/transformation_gzip/gzip.o plugins/transformation_chunked/chunked.o plugins/transformation_offload/offload.o plugins/router_memcached/router_memcached.o plugins/router_redis/router_redis.o plugins/router_hash/router_hash.o plugins/router_expires/expires.o plugins/router_metrics/plugin.o plugins/transformation_template/tt.o plugins/stats_pusher_socket/plugin.o -lpthread -lm -rdynamic -ldl -lz -L/opt/conda/lib -lpcre -L/opt/conda/lib -lxml2 -L/opt/conda/lib -lz -L/opt/conda/lib -llzma -lpthread -L/opt/conda/lib -L/opt/conda/lib -licui18n -licuuc -licudata -lm -ldl -lpthread -ldl -lutil -lrt -lm /opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a -lutil -lcrypt
+  lto1: fatal error: bytecode stream in file ‘/opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a’ generated with LTO version 6.0 instead of the expected 7.1
+  compilation terminated.
+  lto-wrapper: fatal error: gcc returned 1 exit status
+  compilation terminated.
+  /opt/conda/compiler_compat/ld: error: lto-wrapper failed
+  collect2: error: ld returned 1 exit status
+  *** error linking uWSGI ***
+  ----------------------------------------
+  ERROR: Failed building wheel for uWSGI
+  Running setup.py clean for uWSGI
+Failed to build uWSGI
+Installing collected packages: uWSGI, unicode-slugify, text-unidecode, redis, rdflib, python-Levenshtein, pylibmc, org-python, mdx-truly-sane-lists, marko, lxml, jsons, importlib-metadata, fuzzywuzzy, Flask-WTF, Flask-Markdown, Flask-Cors, Flask-Caching, filetype, feedparser, dateparser, cachetools, bleach
+    Running setup.py install for uWSGI: started
+    Running setup.py install for uWSGI: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: /opt/conda/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-x6pgnq1a/install-record.txt --single-version-externally-managed --user --prefix= --compile --install-headers /home/appuser/.local/include/python3.8/uWSGI
+         cwd: /tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/
+    Complete output (155 lines):
+    /opt/conda/lib/python3.8/distutils/dist.py:274: UserWarning: Unknown distribution option: 'descriptions'
+      warnings.warn(msg)
+    running install
+    using profile: buildconf/default.ini
+    detected include path: ['/usr/lib/gcc/x86_64-linux-gnu/8/include', '/usr/local/include', '/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed', '/usr/include/x86_64-linux-gnu', '/usr/include']
+    Patching "bin_name" to properly install_scripts dir
+    detected CPU cores: 4
+    configured CFLAGS: -O2 -I. -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DUWSGI_HAS_IFADDRS -DUWSGI_ZLIB -DUWSGI_LOCK_USE_MUTEX -DUWSGI_EVENT_USE_EPOLL -DUWSGI_EVENT_TIMER_USE_TIMERFD -DUWSGI_EVENT_FILEMONITOR_USE_INOTIFY -I/opt/conda/include -DUWSGI_PCRE -DUWSGI_ROUTING -DUWSGI_VERSION="\"2.0.19.1\"" -DUWSGI_VERSION_BASE="2" -DUWSGI_VERSION_MAJOR="0" -DUWSGI_VERSION_MINOR="19" -DUWSGI_VERSION_REVISION="1" -DUWSGI_VERSION_CUSTOM="\"\"" -DUWSGI_YAML -I/opt/conda/include/libxml2 -I/opt/conda/include -DUWSGI_XML -DUWSGI_XML_LIBXML2 -DUWSGI_PLUGIN_DIR="\".\"" -DUWSGI_DECLARE_EMBEDDED_PLUGINS="UDEP(python);UDEP(gevent);UDEP(ping);UDEP(cache);UDEP(nagios);UDEP(rrdtool);UDEP(carbon);UDEP(rpc);UDEP(corerouter);UDEP(fastrouter);UDEP(http);UDEP(ugreen);UDEP(signal);UDEP(syslog);UDEP(rsyslog);UDEP(logsocket);UDEP(router_uwsgi);UDEP(router_redirect);UDEP(router_basicauth);UDEP(zergpool);UDEP(redislog);UDEP(mongodblog);UDEP(router_rewrite);UDEP(router_http);UDEP(logfile);UDEP(router_cache);UDEP(rawrouter);UDEP(router_static);UDEP(sslrouter);UDEP(spooler);UDEP(cheaper_busyness);UDEP(symcall);UDEP(transformation_tofile);UDEP(transformation_gzip);UDEP(transformation_chunked);UDEP(transformation_offload);UDEP(router_memcached);UDEP(router_redis);UDEP(router_hash);UDEP(router_expires);UDEP(router_metrics);UDEP(transformation_template);UDEP(stats_pusher_socket);" -DUWSGI_LOAD_EMBEDDED_PLUGINS="ULEP(python);ULEP(gevent);ULEP(ping);ULEP(cache);ULEP(nagios);ULEP(rrdtool);ULEP(carbon);ULEP(rpc);ULEP(corerouter);ULEP(fastrouter);ULEP(http);ULEP(ugreen);ULEP(signal);ULEP(syslog);ULEP(rsyslog);ULEP(logsocket);ULEP(router_uwsgi);ULEP(router_redirect);ULEP(router_basicauth);ULEP(zergpool);ULEP(redislog);ULEP(mongodblog);ULEP(router_rewrite);ULEP(router_http);ULEP(logfile);ULEP(router_cache);ULEP(rawrouter);ULEP(router_static);ULEP(sslrouter);ULEP(spooler);ULEP(cheaper_busyness);ULEP(symcall);ULEP(transformation_tofile);ULEP(transformation_gzip);ULEP(transformation_chunked);ULEP(transformation_offload);ULEP(router_memcached);ULEP(router_redis);ULEP(router_hash);ULEP(router_expires);ULEP(router_metrics);ULEP(transformation_template);ULEP(stats_pusher_socket);"
+    *** uWSGI compiling server core ***
+    core/utils.o is up to date
+    core/protocol.o is up to date
+    core/socket.o is up to date
+    core/logging.o is up to date
+    core/master.o is up to date
+    core/master_utils.o is up to date
+    core/emperor.o is up to date
+    core/notify.o is up to date
+    core/mule.o is up to date
+    core/subscription.o is up to date
+    core/stats.o is up to date
+    core/sendfile.o is up to date
+    core/async.o is up to date
+    core/master_checks.o is up to date
+    core/fifo.o is up to date
+    core/offload.o is up to date
+    core/io.o is up to date
+    core/static.o is up to date
+    core/websockets.o is up to date
+    core/spooler.o is up to date
+    core/snmp.o is up to date
+    core/exceptions.o is up to date
+    core/config.o is up to date
+    core/setup_utils.o is up to date
+    core/clock.o is up to date
+    core/init.o is up to date
+    core/buffer.o is up to date
+    core/reader.o is up to date
+    core/writer.o is up to date
+    core/alarm.o is up to date
+    core/cron.o is up to date
+    core/hooks.o is up to date
+    core/plugins.o is up to date
+    core/lock.o is up to date
+    core/cache.o is up to date
+    core/daemons.o is up to date
+    core/errors.o is up to date
+    core/hash.o is up to date
+    core/master_events.o is up to date
+    core/chunked.o is up to date
+    core/queue.o is up to date
+    core/event.o is up to date
+    core/signal.o is up to date
+    core/strings.o is up to date
+    core/progress.o is up to date
+    core/timebomb.o is up to date
+    core/ini.o is up to date
+    core/fsmon.o is up to date
+    core/mount.o is up to date
+    core/metrics.o is up to date
+    core/plugins_builder.o is up to date
+    core/sharedarea.o is up to date
+    core/rpc.o is up to date
+    core/gateway.o is up to date
+    core/loop.o is up to date
+    core/cookie.o is up to date
+    core/querystring.o is up to date
+    core/rb_timers.o is up to date
+    core/transformations.o is up to date
+    core/uwsgi.o is up to date
+    proto/base.o is up to date
+    proto/uwsgi.o is up to date
+    proto/http.o is up to date
+    proto/fastcgi.o is up to date
+    proto/scgi.o is up to date
+    proto/puwsgi.o is up to date
+    lib/linux_ns.o is up to date
+    core/zlib.o is up to date
+    core/regexp.o is up to date
+    core/routing.o is up to date
+    core/yaml.o is up to date
+    core/xmlconf.o is up to date
+    [thread 1][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/dot_h.o
+    [thread 2][gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/] core/config_py.o
+    *** uWSGI compiling embedded plugins ***
+    plugins/python/python_plugin.o is up to date
+    plugins/python/pyutils.o is up to date
+    plugins/python/pyloader.o is up to date
+    plugins/python/wsgi_handlers.o is up to date
+    plugins/python/wsgi_headers.o is up to date
+    plugins/python/wsgi_subhandler.o is up to date
+    plugins/python/web3_subhandler.o is up to date
+    plugins/python/pump_subhandler.o is up to date
+    plugins/python/gil.o is up to date
+    plugins/python/uwsgi_pymodule.o is up to date
+    plugins/python/profiler.o is up to date
+    plugins/python/symimporter.o is up to date
+    plugins/python/tracebacker.o is up to date
+    plugins/python/raw.o is up to date
+    plugins/gevent/gevent.o is up to date
+    plugins/gevent/hooks.o is up to date
+    plugins/ping/ping_plugin.o is up to date
+    plugins/cache/cache.o is up to date
+    plugins/nagios/nagios.o is up to date
+    plugins/rrdtool/rrdtool.o is up to date
+    plugins/carbon/carbon.o is up to date
+    plugins/rpc/rpc_plugin.o is up to date
+    plugins/corerouter/cr_common.o is up to date
+    plugins/corerouter/cr_map.o is up to date
+    plugins/corerouter/corerouter.o is up to date
+    plugins/fastrouter/fastrouter.o is up to date
+    plugins/http/http.o is up to date
+    plugins/http/keepalive.o is up to date
+    plugins/http/https.o is up to date
+    plugins/http/spdy3.o is up to date
+    plugins/ugreen/ugreen.o is up to date
+    plugins/signal/signal_plugin.o is up to date
+    plugins/syslog/syslog_plugin.o is up to date
+    plugins/rsyslog/rsyslog_plugin.o is up to date
+    plugins/logsocket/logsocket_plugin.o is up to date
+    plugins/router_uwsgi/router_uwsgi.o is up to date
+    plugins/router_redirect/router_redirect.o is up to date
+    plugins/router_basicauth/router_basicauth.o is up to date
+    plugins/zergpool/zergpool.o is up to date
+    plugins/redislog/redislog_plugin.o is up to date
+    plugins/mongodblog/mongodblog_plugin.o is up to date
+    plugins/router_rewrite/router_rewrite.o is up to date
+    plugins/router_http/router_http.o is up to date
+    plugins/logfile/logfile.o is up to date
+    plugins/router_cache/router_cache.o is up to date
+    plugins/rawrouter/rawrouter.o is up to date
+    plugins/router_static/router_static.o is up to date
+    plugins/sslrouter/sslrouter.o is up to date
+    plugins/spooler/spooler_plugin.o is up to date
+    plugins/cheaper_busyness/cheaper_busyness.o is up to date
+    plugins/symcall/symcall_plugin.o is up to date
+    plugins/transformation_tofile/tofile.o is up to date
+    plugins/transformation_gzip/gzip.o is up to date
+    plugins/transformation_chunked/chunked.o is up to date
+    plugins/transformation_offload/offload.o is up to date
+    plugins/router_memcached/router_memcached.o is up to date
+    plugins/router_redis/router_redis.o is up to date
+    plugins/router_hash/router_hash.o is up to date
+    plugins/router_expires/expires.o is up to date
+    plugins/router_metrics/plugin.o is up to date
+    plugins/transformation_template/tt.o is up to date
+    plugins/stats_pusher_socket/plugin.o is up to date
+    *** uWSGI linking ***
+    gcc -pthread -B /opt/conda/compiler_compat -Wl,--sysroot=/ -o /home/appuser/.local/bin/uwsgi  core/utils.o core/protocol.o core/socket.o core/logging.o core/master.o core/master_utils.o core/emperor.o core/notify.o core/mule.o core/subscription.o core/stats.o core/sendfile.o core/async.o core/master_checks.o core/fifo.o core/offload.o core/io.o core/static.o core/websockets.o core/spooler.o core/snmp.o core/exceptions.o core/config.o core/setup_utils.o core/clock.o core/init.o core/buffer.o core/reader.o core/writer.o core/alarm.o core/cron.o core/hooks.o core/plugins.o core/lock.o core/cache.o core/daemons.o core/errors.o core/hash.o core/master_events.o core/chunked.o core/queue.o core/event.o core/signal.o core/strings.o core/progress.o core/timebomb.o core/ini.o core/fsmon.o core/mount.o core/metrics.o core/plugins_builder.o core/sharedarea.o core/rpc.o core/gateway.o core/loop.o core/cookie.o core/querystring.o core/rb_timers.o core/transformations.o core/uwsgi.o proto/base.o proto/uwsgi.o proto/http.o proto/fastcgi.o proto/scgi.o proto/puwsgi.o lib/linux_ns.o core/zlib.o core/regexp.o core/routing.o core/yaml.o core/xmlconf.o core/dot_h.o core/config_py.o plugins/python/python_plugin.o plugins/python/pyutils.o plugins/python/pyloader.o plugins/python/wsgi_handlers.o plugins/python/wsgi_headers.o plugins/python/wsgi_subhandler.o plugins/python/web3_subhandler.o plugins/python/pump_subhandler.o plugins/python/gil.o plugins/python/uwsgi_pymodule.o plugins/python/profiler.o plugins/python/symimporter.o plugins/python/tracebacker.o plugins/python/raw.o plugins/gevent/gevent.o plugins/gevent/hooks.o plugins/ping/ping_plugin.o plugins/cache/cache.o plugins/nagios/nagios.o plugins/rrdtool/rrdtool.o plugins/carbon/carbon.o plugins/rpc/rpc_plugin.o plugins/corerouter/cr_common.o plugins/corerouter/cr_map.o plugins/corerouter/corerouter.o plugins/fastrouter/fastrouter.o plugins/http/http.o plugins/http/keepalive.o plugins/http/https.o plugins/http/spdy3.o plugins/ugreen/ugreen.o plugins/signal/signal_plugin.o plugins/syslog/syslog_plugin.o plugins/rsyslog/rsyslog_plugin.o plugins/logsocket/logsocket_plugin.o plugins/router_uwsgi/router_uwsgi.o plugins/router_redirect/router_redirect.o plugins/router_basicauth/router_basicauth.o plugins/zergpool/zergpool.o plugins/redislog/redislog_plugin.o plugins/mongodblog/mongodblog_plugin.o plugins/router_rewrite/router_rewrite.o plugins/router_http/router_http.o plugins/logfile/logfile.o plugins/router_cache/router_cache.o plugins/rawrouter/rawrouter.o plugins/router_static/router_static.o plugins/sslrouter/sslrouter.o plugins/spooler/spooler_plugin.o plugins/cheaper_busyness/cheaper_busyness.o plugins/symcall/symcall_plugin.o plugins/transformation_tofile/tofile.o plugins/transformation_gzip/gzip.o plugins/transformation_chunked/chunked.o plugins/transformation_offload/offload.o plugins/router_memcached/router_memcached.o plugins/router_redis/router_redis.o plugins/router_hash/router_hash.o plugins/router_expires/expires.o plugins/router_metrics/plugin.o plugins/transformation_template/tt.o plugins/stats_pusher_socket/plugin.o -lpthread -lm -rdynamic -ldl -lz -L/opt/conda/lib -lpcre -L/opt/conda/lib -lxml2 -L/opt/conda/lib -lz -L/opt/conda/lib -llzma -lpthread -L/opt/conda/lib -L/opt/conda/lib -licui18n -licuuc -licudata -lm -ldl -lpthread -ldl -lutil -lrt -lm /opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a -lutil -lcrypt
+    lto1: fatal error: bytecode stream in file ‘/opt/conda/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a’ generated with LTO version 6.0 instead of the expected 7.1
+    compilation terminated.
+    lto-wrapper: fatal error: gcc returned 1 exit status
+    compilation terminated.
+    /opt/conda/compiler_compat/ld: error: lto-wrapper failed
+    collect2: error: ld returned 1 exit status
+    *** error linking uWSGI ***
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /opt/conda/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rd_ee36a/uwsgi_943454756bd34ca09cc9b1ea529caa22/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-x6pgnq1a/install-record.txt --single-version-externally-managed --user --prefix= --compile --install-headers /home/appuser/.local/include/python3.8/uWSGI Check the logs for full command output.
