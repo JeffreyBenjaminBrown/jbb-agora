@@ -1,4 +1,4 @@
-DOCKER_IMAGE_SUFFIX="2021-06-18.no-apt-for-node"
+DOCKER_IMAGE_SUFFIX="2021-06-20.consolidated"
 
 docker build -f Dockerfile -t \
   jeffreybbrown/agora:new .   \
